@@ -1,4 +1,6 @@
-# Meteor Buildpack Horse
+# Meteor Buildpack Horse Calvary
+
+> Horse with ios and android platforms included to enable Hot Code Push to work, inspired by @adeelraza
 
 A heroku buildpack for Meteor v0.9.3+ (including 1.0 and up), using meteor's
 native packaging system and designed to be as simple and readable as possible.
