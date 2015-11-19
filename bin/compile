@@ -75,8 +75,8 @@ BUNDLE_DEST=`mktemp -d "$BUILDPACK_DIR/build-XXXX"`
 # Temporary hack to address meteor failing to bundle if mobile targets are
 # included but server URL is not (issue #2).  Remove mobile targets. This
 # should be no-op for any builds that don't have mobile targets.
-# HORSE CALVARY: don't remove these
-# HOME=$METEOR_DIR $METEOR remove-platform ios android
+# HORSE CAVALRY: remove Android to prevent Meteor 1.2 lack of Android home issue https://github.com/AdmitHub/meteor-buildpack-horse/issues/50
+HOME=$METEOR_DIR $METEOR remove-platform android
 # </hack>
 
 # <hack issue="https://github.com/meteor/meteor/issues/2796>

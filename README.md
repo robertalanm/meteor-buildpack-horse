@@ -1,4 +1,4 @@
-# Meteor Buildpack Horse Calvary
+# Meteor Buildpack Horse Cavalry
 
 > Horse with ios and android platforms included to enable Hot Code Push to work, inspired by @adeelraza
 
