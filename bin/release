@@ -4,5 +4,5 @@ cat <<EOF
 addons:
   - mongolab
 default_process_types:
-    web: .meteor/heroku_build/bin/node --trace_gc --trace_gc_ignore_scavenger --trace_gc_verbose --max_old_space_size=380 --gc_interval=100 .meteor/heroku_build/app/main.js
+    web: .meteor/heroku_build/bin/node --trace_gc --trace_gc_ignore_scavenger --max_old_space_size=460 --gc_interval=100 .meteor/heroku_build/app/main.js
 EOF
