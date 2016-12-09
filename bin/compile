@@ -59,9 +59,8 @@ export CPPPATH="$CPATH"
 # Install meteor
 #
 echo "-----> Installing meteor"
-curl -sS https://install.meteor.com | HOME="$METEOR_DIR" /bin/sh
+sh meteor.sh | HOME="$METEOR_DIR" /bin/sh
 METEOR="$METEOR_DIR/.meteor/meteor" # The meteor binary.
-meteor update --release 1.2.1
 
 #
 # Build the meteor app!
